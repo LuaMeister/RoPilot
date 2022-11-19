@@ -1,0 +1,15 @@
+{
+  "name": "RoPilot",
+  "tree": {
+    "$className": "DataModel",
+    
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "RoPilot": {
+        "$className": "Folder",
+        "$path": "src/"
+      }
+    }
+    
+  }
+}
