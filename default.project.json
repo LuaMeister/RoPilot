@@ -5,11 +5,11 @@
     
     "ServerScriptService": {
       "$className": "ServerScriptService",
+
       "RoPilot": {
         "$className": "Folder",
         "$path": "src/"
       }
     }
-    
   }
 }
