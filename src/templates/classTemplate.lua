@@ -1,7 +1,7 @@
 
 local ScriptEditorService = game:GetService("ScriptEditorService")
 local Template = {}
-Template.Pattern = "Class%-(%w+)%-"
+Template.Pattern = "class%-(%w+)%-"
 Template.Content = [[
 
 local %s = {}
