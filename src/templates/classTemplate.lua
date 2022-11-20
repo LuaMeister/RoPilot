@@ -28,8 +28,8 @@ function Template:Execute(document: ScriptDocument, line: string, tag: string?)
         content = Template.Content
     end
 
-    local LineNumber, _, _, _ = document:GetSelection()
-    document:EditTextAsync(content, LineNumber, 1, LineNumber, string.len(line) + 1)
+    local lineNumber, _, _, _ = document:GetSelection()
+    document:EditTextAsync(content, lineNumber, 1, lineNumber, string.len(line) + 1)
 end
 
 return Template
